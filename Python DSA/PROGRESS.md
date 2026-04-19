@@ -8,6 +8,7 @@
 |:-----------:|:----:|:--------|:------------|:-------------|:-------------|:-------|:-----------:|:----------------|
 | 2026-04-17 | 217 | Contains Duplicate | 01 Arrays & Hashing | Hash Set Lookup | O(n) / O(n) | ✅ Opt | 2026-04-24 | R1 passed → consolidated to optimal |
 | 2026-04-16 | 217 | Contians Duplicate | 01 Arrays & Hashing | Hash Set Lookup | O(n) / O(n) | 🔵 Solved | 2026-04-18 | Check complement *before* inserting |
+| 2026-04-17 | 001 | Two Sum | 01 Arrays & Hashing | Hash Map Complement | O(n) / O(n) | 🔵 Solved ✅ Opt | 2026-04-19 | Check complement *before* inserting |
 
 ### 🔑 Status Legend
 - `🟡 Review` → Struggled or needed hints
