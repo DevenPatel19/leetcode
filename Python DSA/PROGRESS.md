@@ -6,9 +6,9 @@
 
 | Date Solved | LC # | Problem | Phase/Topic | Core Pattern | Time / Space | Status | Next Review | Notes / Trigger |
 |:-----------:|:----:|:--------|:------------|:-------------|:-------------|:-------|:-----------:|:----------------|
-| 2026-04-17 | 217 | Contains Duplicate | 01 Arrays & Hashing | Hash Set Lookup | O(n) / O(n) | ✅ Opt | 2026-04-24 | R1 passed → consolidated to optimal |
-| 2026-04-16 | 217 | Contians Duplicate | 01 Arrays & Hashing | Hash Set Lookup | O(n) / O(n) | 🔵 Solved | 2026-04-18 | Check complement *before* inserting |
-| 2026-04-17 | 001 | Two Sum | 01 Arrays & Hashing | Hash Map Complement | O(n) / O(n) | 🔵 Solved ✅ Opt | 2026-04-19 | Check complement *before* inserting |
+| 2026-04-20 | 242 | Valid Anagram | 01 Arrays & Hashing | Frequency Hash Map | O(n) / O(1) | 🔵 Solved | 2026-04-22 | Early length check + single-pass count |
+| 2026-04-20 | 1 | Two Sum | 01 Arrays & Hashing | Hash Map Complement | O(n) / O(n) | 🟡 Review | 2026-04-22 | Recall stuck → reset cycle, retry tomorrow |
+| 2026-04-17 | 217 | Contains Duplicate | 01 Arrays & Hashing | Hash Set Lookup | O(n) / O(n) | ✅ Opt | 2026-04-24 | R1 passed → consolidated |
 
 ### 🔑 Status Legend
 - `🟡 Review` → Struggled or needed hints
