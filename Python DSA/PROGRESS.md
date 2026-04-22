@@ -6,6 +6,7 @@
 
 | Date Solved | LC # | Problem | Phase/Topic | Core Pattern | Time / Space | Status | Next Review | Notes / Trigger |
 |:-----------:|:----:|:--------|:------------|:-------------|:-------------|:-------|:-----------:|:----------------|
+| 2026-04-22 | 217 | Contains Duplicate | 01 Arrays & Hashing | Hash Set Lookup | O(n) / O(n) | ✅ Opt | 2026-04-29 | R1 smooth → pushed to +7 days |
 | 2026-04-22 | 242 | Valid Anagram | 01 Arrays & Hashing | Frequency Hash Map | O(n) / O(1) | 🟡 Review | 2026-04-24 | Smooth but >5m + peek → reset |
 | 2026-04-22 | 001 | Two Sum | 01 Arrays & Hashing | Hash Map Complement | O(n) / O(n) | 🟡 Review | 2026-04-24 | Recall hard + peek → reset cycle |
 | 2026-04-20 | 242 | Valid Anagram | 01 Arrays & Hashing | Frequency Hash Map | O(n) / O(1) | 🔵 Solved | 2026-04-22 | Early length check + single-pass count |

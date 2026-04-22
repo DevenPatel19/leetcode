@@ -2,24 +2,24 @@ from typing import List
 
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
-        # ⏱️ Time Complexity: O(n) - single pass
-        # 💾 Space Complexity: O(n) - hash set stores up to n elements
+        # ⏱️ Time Complexity: O(n) - single pass through array
+        # 💾 Space Complexity: O(n) - set stores up to n unique elements
         # 📌 Pattern: Hash Set Lookup
         # 🔑 Key Insight: Track seen elements, return True on first repeat
 
-        # Initialize empty hash set for O(1) lookups
+        # Initialize an empty hash set to track visited numbers
         seen = set()                                                       # O(1)
 
-        # Iterate through each number in the input array
+        # Iterate through each element in the input array
         for num in nums:                                                   # O(n)
-            # Check if current number already exists in the set
+            # Check if current element was already encountered
             if num in seen:                                                # O(1)
-                # Duplicate found → return immediately
+                # Duplicate detected, exit early with positive result
                 return True                                                # O(1)
-            # Add current number to set for future checks
+            # Record current element for future lookups
             seen.add(num)                                                  # O(1)
 
-        # Loop completed without finding duplicates
+        # Entire array processed without finding duplicates
         return False                                                       # O(1)
 
         # ✅ WRITE YOUR LOGIC BELOW THIS LINE
@@ -48,27 +48,4 @@ if __name__ == "__main__":
 # =============================================================================
 # 📜 HISTORY & ATTEMPTS (Comment out after each session)
 # =============================================================================
-# 2026-04-17 - v1/optimal
-# class Solution:
-#     def containsDuplicate(self, nums: List[int]) -> bool:
-#         seen = set()
-#         for num in nums:
-#             if num in seen: return True
-#             seen.add(num)
-#         return False
-
-# April 22, 2026
-# Initialize empty hash set for O(1) lookups
-#    seen = set()                                                       # O(1)
-#
-#    # Iterate through each number in the input array
-#    for num in nums:                                                   # O(n)
-#        # Check if current number already exists in the set
-#        if num in seen:                                                # O(1)
-#            # Duplicate found → return immediately
-#            return True                                                # O(1)
-#        # Add current number to set for future checks
-#        seen.add(num)                                                  # O(1)
-#
-#    # Loop completed without finding duplicates
-#    return False                                                       # O(1)
+# PASTE PREVIOUS REVIEW BLOCKS HERE
